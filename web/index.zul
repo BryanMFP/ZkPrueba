@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+index.zul
+
+{{IS_NOTE
+	Purpose:
+		
+	Description:
+		
+	History:
+		Mon Jun 12 21:23:35     2006, Created by tomyeh
+		Fri May 01 04:36:35     2009, Modified by stera
+}}IS_NOTE
+
+Copyright (C) 2006 Potix Corporation. All Rights Reserved.
+
+{{IS_RIGHT
+}}IS_RIGHT
+-->
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window apply="com.ZKprueba.controlador.Controlador1">
+        <div>
+            <!--button id="aceptar" label="Registrarse" width="130px" height="40px"/-->
+            Numero 1
+            <intbox id="n1" width="50px" height="20px"/>
+            Numero 2
+            <intbox id="n2" width="50px" height="20px"/>
+            <button id="calcular" label="Sumar" width="60px" height="20px"/>
+            <textbox id="resultado" width="60px" height="20px"/>
+        </div>
+        <div>
+            <button id="cambio" label="ir a..."/>
+        </div>
+    </window>
+</zk>

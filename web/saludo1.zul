@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window apply="com.ZKprueba.controlador.Pagina1">
+    Pagina en construccion
+    <button id="ventana" label="dialogo" width="60px" height="20px"/>
+    </window>
+</zk>
